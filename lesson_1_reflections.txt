@@ -1,0 +1,25 @@
+How did viewing a diff between 2 versions help me spot a bug:
+I was able to pinpoint the exact lines where there were differences so it was a lot quicker. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It allows you to go back to other versions, compare between two, and find bugs in them if there are any. It also means if you ever lose the most recent file, you have previous versions to work with.
+
+One commit per logical change. So in essence if you fix a bug, you should commit, then if you fix some typos in a section, you can commit again
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pros of manually creating a commit point is you can choose exactly when you want to create one and can create one at the most logical point. It gives you more flexibilty and it makes it far less likely that you'll end up with redundant commits.
+The cons of manually doing it are that you may forget to commit at certain key points and just human error can lead to mistake here, which in turn is a pro of auto commits
+The cons of auto commits are that you may end up with commits that are not logical, are too bug or too small so it can be harder to debug.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because google docs is used more for unrelated files. It's not common to code with google docs, whereas git was created specifically for that.
+
+
+How can you use the commands git log and git diff to view the history of files?
+You can use git log to see all the commits in chronological order and then use git diff to checking any differences between the two commits you choose to compare
+
+How might using version control make you more confident to make changes that could break something?
+Because you can always check through previous versions to find out where the error was. It makes things so much easier
+
+Now that you have your workspace set up, what do you want to try using Git for?
+For making commits in any files I edit, even just to try it out
