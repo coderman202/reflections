@@ -8,7 +8,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 Because you can run git diff to compare with the last commit  by running git diff --staged and make sure you are not making a commit with too many changes.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-I think when you are creating different versions of the code that are all intended to be workable versions. And branches help as it makes it a lot easier to search through your repository and it is more logical to have the last commit in each branch to be the workable versions.
+I think when you are creating different versions of the code that are all intended to be workable versions. And branches help as it makes it a lot easier to search through your repository and it is more logical to have the last commit in each branch to be the workable versions..
 
 How do the diagrams help you visualize the branch structure?
 Because you can clearly see how the structure 'branches' out. You can see where different branches originated from and get a better idea of what you are dealing with
