@@ -16,3 +16,5 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Without using it you could collaborate using some file-sharing online, such as google drive. Otherwise it would be a case of sending and recieving copies of updated files everytime to make a change. If it is a simple text document, then something like google docs is probably a lot easier as you can see who is viewing/editing your doc at any time.
 However any sort of complex projects would be much harder to collaborate over without Git or GitHub because conflicts are so much easier to handle, because they are auto spotted.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+So you can commit these changes without it affacting the master and then take advantage of the pull request feature on github. And you can experiment with different changes without altering the master code
