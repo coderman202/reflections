@@ -11,3 +11,8 @@ Branches are really when you are working on a project and maybe wish to make dif
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 So you can work offline and it allows you to fetch new remote commits without merging them into your local master branch if you so wish.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using it you could collaborate using some file-sharing online, such as google drive. Otherwise it would be a case of sending and recieving copies of updated files everytime to make a change. If it is a simple text document, then something like google docs is probably a lot easier as you can see who is viewing/editing your doc at any time.
+However any sort of complex projects would be much harder to collaborate over without Git or GitHub because conflicts are so much easier to handle, because they are auto spotted.
+
