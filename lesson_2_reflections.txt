@@ -2,7 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialise a repository a new .git file is created. You need to do it so you can create your own commits
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-It is different because you can add files to the staging area before making a commit. It allows to to add or remove specific files and commit with only the relevant ones from your repository or working directory
+It is different because you can add files to the staging area before making a commit. It allows to to add or remove specific files and commit with only the relevant ones from your repository or working directory.
 
 How can you use the staging area to make sure you have one commit per logical change?
 Because you can run git diff to compare with the last commit  by running git diff --staged and make sure you are not making a commit with too many changes
